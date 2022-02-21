@@ -1,0 +1,141 @@
+.mysocialhandles {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 5;
+    top: 40%;
+    background-color: var(--color-1);
+    padding: 15px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    /* border: 1px solid var(--color-2); */
+  }
+  /* .mysocialhandles:hover{
+      /* background-color: var(--color-3); */
+    /* padding: 15px 15px; */
+  /* } */ 
+  .mysocialhandles a img {
+    width: 25px;
+    padding: 10px 0px;
+  }
+  .mysocialhandles a img:hover{
+    width: 30px;
+  }
+
+  .my-banner {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  .my-banner-left {
+    display: flex;
+    flex-direction: column;
+    /* width: 900px; */
+    margin: 16px 0px;
+  }
+  .my-banner-left p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 800;
+  }
+  .my-banner-left .head1 {
+    font-size: 50px;
+    color: var(--color-2);
+  }
+  .my-banner-left .head2 {
+    font-size: 112px;
+    color: var(--color-1);
+  }
+  .my-banner-left .head3 {
+    font-size: 26px;
+    color: var(--color-2);
+  }
+  .my-banner-right {
+    width: 40%;
+  }
+  .my-banner-right img {
+    width: 90%;
+  }
+  .my-banner-right .empty-div {
+    height: 160px;
+  }
+
+  @media (max-width:1500px) {
+    .mysocialhandles{
+          top: 60%;
+    }
+  }
+
+  @media (max-width: 1200px) {
+      .my-banner-right .empty-div{
+           height: 30px;
+    }
+    .my-banner-right{
+        width: 50%;
+    }
+    .my-banner-left {
+        width: 50%;
+    }
+    /* .my-banner-right {
+      display: block;
+      float: right;
+    } */
+
+    .my-banner-right img{
+        width: 90%;
+    }
+
+
+
+    .my-banner-left .head2 {
+      font-size: 80px;
+    }
+    
+  }
+
+  @media (max-width: 1000px) {
+    .my-banner-left .head2{
+        font-size: 60px;
+    }
+    .my-banner-left .head3{
+        font-size: 20px;
+    }
+  }
+
+  @media (max-width: 900px){
+      .my-banner-left{
+          width: 100%;
+      }
+      .my-banner-right{
+          display: flex;
+          justify-content: center;
+          width: 100%;
+      }
+      .my-banner-right img{
+          width: 400px;
+      }
+      .my-banner-left p{
+          text-align: center;
+      }
+  }
+  @media (max-width: 600px) {
+    .mysocialhandles{
+      top: 20%;
+      padding: 15px 5px;
+}
+  }
+  @media (max-width: 450px) {
+      .my-banner-right img{
+          width: 300px;
+      }
+
+      .my-banner-left .head1{
+        font-size: 30px;
+    }
+    .my-banner-left .head3{
+        font-size: 20px;
+    }
+  }

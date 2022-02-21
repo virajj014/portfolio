@@ -1,0 +1,50 @@
+.reveal-up {
+    /* position: relative; */
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+
+  .reveal-up.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .reveal-down {
+    /* position: relative; */
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: 1s all ease;
+
+  }
+
+  .reveal-down.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .reveal-right {
+    /* position: relative; */
+    transform: translateX(10px);
+    opacity: 0;
+    transition: 1s all ease;
+
+  }
+
+  .reveal-right.active {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .reveal-left {
+    /* position: relative; */
+    transform: translateX(-10px);
+    opacity: 0;
+    transition: 1s all ease;
+
+  }
+
+  .reveal-left.active {
+    transform: translateX(0);
+    opacity: 1;
+  }

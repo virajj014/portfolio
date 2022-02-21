@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harshal's Portfolio | Skills & Experience</title>
+    <link rel="icon" type="image/x-icon" href="images/fav-logo.png" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/banner.css" />
+    <link rel="stylesheet" href="css/aboutandfooter.css" />
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/skill-section.css" />
+  </head>
+  <style>
+    :root {
+      --color-1: #4aff90;
+      --color-2: #545454;
+      --card-color1: rgb(0, 209, 0);
+
+      --card-color2: rgb(209, 209, 0);
+      --card-color3: rgb(0, 209, 129);
+      --card-color4: rgb(0, 96, 185);
+      --card-color5: rgb(209, 209, 0);
+      --card-color6: rgb(0, 209, 0);
+      --card-color7: rgb(0, 96, 185);
+      --card-color8: rgb(0, 209, 129);
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+   
+    .myexperience {
+    background-color: var(--color-1);
+    display: flex;
+    flex-direction: column;
+    padding: 80px 10%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .myexperience .head1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 10px 0px;
+  }
+  .myexperience .head2 {
+    color: var(--color-2);
+    font-size: 25px;
+    font-weight: 700;
+    
+  }
+  @media (max-width:700px) {
+    .myexperience .head2{
+      text-align: center;
+    }
+  }
+
+  </style>
+  <body>
+    <!-- Navbar -->
+
+    <header class="header">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="logo">
+            <img src="images/logo.png" alt="" id="mylogoimg" />
+          </div>
+          <button type="button" class="nav-toggler">
+            <span></span>
+          </button>
+          <nav class="nav">
+            <ul>
+              <li><a href="/home" class="nav-btn">Home</a></li>
+              <li><a href="/skills" class="nav-btn active">Skills & Experience</a></li>
+              <li><a href="/projects" class="nav-btn">Projects</a></li>
+              <!-- <li><a href="#" class="nav-btn">Contact</a></li> -->
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    
+    <div class="mysocialhandles reveal-left">
+      <a href="https://www.linkedin.com/in/harshal-jain-5742b1199/"
+        ><img src="images/linkedin-logo.png" alt=""
+      /></a>
+      <a href="https://github.com/virajj014"
+        ><img src="images/github-logo.png" alt=""
+      /></a>
+      <a href="https://www.youtube.com/channel/UCtvr7uwDVkNbMDGKUrd-8ug"
+        ><img src="images/youtube-logo.png" alt=""
+      /></a>
+      <a href="https://www.instagram.com/v.i.r.a.j.30/"
+        ><img src="images/instagram-logo.png" alt=""
+      /></a>
+    </div>
+
+    <div class="myexperience" id="experience">
+      <p class="head1 reveal-left">My Work Experience</p>
+      <p class="head2 reveal-right">
+        I am a learner and to test my skills I've applied for various Interships & Part time jobs as a college student,
+        and luckily got selected at some of them.<br>Currently I am working with Geeks For Geeks as an Educator/Mentor,
+        <!-- with an average stipend of Rs. 20k/month. -->I am also working as an Intern at 3-bit Digital where my job-role is 
+        to build website for their clients.<br>Apart from that I am the owner of Coder Hub Start-up, it's a youtube channel where
+        I teach programming for free & also we are about to launch our own education platform,we are a team of 8 members and just because
+        of that I learned how to coordinate with a team & build leadership skills.<br><br>
+        So above I've mentioned my work Experience from past 2 years and willing to get more.
+    </div>
+
+    <div class="skills-container" id="skills">
+      <div class="head0">My Skills</div>
+      <div class="card-container">
+        <div class="my-card reveal-left" id="card-1">
+          <img src="images/webdev.png" alt="" id="card-image" />
+          <hr />
+          <div class="card-data">
+            <div class="head1">Fron-end Web Development</div>
+            <div class="head2">
+              In this I've learnt complete <b>HTML CSS and Intermediate JS</b>,I've been dealing with frontend fromm past 1 year and Currently
+              I am working on <b>React</b> framework
+            </div>
+            <!-- <div class="head3">
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Demo</a>
+              </button>
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Source Code</a>
+              </button>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="my-card reveal-up" id="card-2">
+          <img src="images/softwaredev.png" alt="" id="card-image" />
+          <hr />
+          <div class="card-data">
+            <div class="head1">Back-end Web Development</div>
+            <div class="head2">
+              For Back-end I use<b> Node Js , Express and socket.io web sockets </b>,I've made many working projects
+              using them and currenty I am focusing on adding <b>Artificial Intelligence & Machine Learning.</b>
+            </div>
+            <!-- <div class="head3">
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Demo</a>
+              </button>
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Source Code</a>
+              </button>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="my-card reveal-right" id="card-3">
+          <img src="images/database.png" alt="" id="card-image" />
+          <hr />
+          <div class="card-data">
+            <div class="head1">Database</div>
+            <div class="head2">
+              For Database I use <b>Mongo DB</b> which I link with my node js server,and I am in an Intermediate level of learning database.
+            </div>
+            <!-- <div class="head3">
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Demo</a>
+              </button>
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Source Code</a>
+              </button>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="my-card reveal-down" id="card-4">
+          <img src="images/appdev.png" alt="" id="card-image" />
+          <hr />
+          <div class="card-data">
+            <div class="head1">App Development</div>
+            <div class="head2">
+              For App Development, I use <b>React Native</b> as it's fast,scalable & works for both android and ios devices. 
+            </div>
+            <!-- <div class="head3">
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Demo</a>
+              </button>
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Source Code</a>
+              </button>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="my-card reveal-right" id="card-5">
+          <img src="images/python.png" alt="" id="card-image" />
+          <hr />
+          <div class="card-data">
+            <div class="head1">Python</div>
+            <div class="head2">
+              I know Python till <b>advanced level</b>, worked with some best libraries like opencv, numpy, pandas. I also <b>built assistants, bots and 
+                object detection programs & games like Tic Tac Toe , Snake & Ladders.</b>
+            </div>
+            <!-- <div class="head3">
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Demo</a>
+              </button>
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Source Code</a>
+              </button>
+            </div> -->
+          </div>
+        </div>
+        <div class="my-card reveal-down" id="card-6">
+          <img src="images/cpp.png" alt="" id="card-image" />
+          <hr />
+          <div class="card-data">
+            <div class="head1">C/C++</div>
+            <div class="head2">
+              I learnt C/Cpp till <b>Intermediate level</b> , with <b>Data Structures in C & Object Oriented Programming in Cpp</b> , I also participate 
+              in many <b>hackathons and competitive programming exams</b> which help me brush up my logic with these languages
+            </div>
+            <!-- <div class="head3">
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Demo</a>
+              </button>
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Source Code</a>
+              </button>
+            </div> -->
+          </div>
+        </div>
+        <div class="my-card reveal-left" id="card-7">
+          <img src="images/cybersecurity.png" alt="" id="card-image" />
+          <hr />
+          <div class="card-data">
+            <div class="head1">Cyber Security</div>
+            <div class="head2">
+              Though I am a beginner at Cyber Security, but I have explored <b>Ethical Hacking</b> which helped me build secure websites.
+            </div>
+            <!-- <div class="head3">
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Demo</a>
+              </button>
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Source Code</a>
+              </button>
+            </div> -->
+          </div>
+        </div>
+        <div class="my-card reveal-down" id="card-8">
+          <img src="images/graphicsdesign.png" alt="" id="card-image" />
+          <hr />
+          <div class="card-data">
+            <div class="head1">Graphics Designing</div>
+            <div class="head2">
+              I've been using <b>photoshop and canva</b> from past one year for <b>Editing, Thumbnails & UX/UI designing.</b>
+            </div>
+            <!-- <div class="head3">
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Demo</a>
+              </button>
+              <button>
+                <a href="http://www.youtube.com/" target="blank">Source Code</a>
+              </button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="head1">For more details you can also Visit</div>
+      <div class="head2 reveal-down">
+        <nav class="nav2">
+          <ul>
+            <li><a href="/home" class="nav-btn">Home</a></li>
+              <li><a href="/skills" class="nav-btn active">Skills & Experience</a></li>
+              <li><a href="/projects" class="nav-btn">Projects</a></li>
+              <!-- <li><a href="#" class="nav-btn">Contact</a></li> -->
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+  <script src="js/randomcolor.js"></script>
+  <script src="js/navbar.js"></script>
+  <script>
+    function revealup() {
+      var reveals = document.querySelectorAll(".reveal-up");
+
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 150;
+
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+
+    function revealdown() {
+      var reveals = document.querySelectorAll(".reveal-down");
+
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 150;
+
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+    function revealleft() {
+      var reveals = document.querySelectorAll(".reveal-left");
+
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 150;
+
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+
+    function revealright() {
+      var reveals = document.querySelectorAll(".reveal-right");
+
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 150;
+
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+
+    window.addEventListener("scroll", revealup);
+    window.addEventListener("scroll", revealdown);
+    window.addEventListener("scroll", revealleft);
+    window.addEventListener("scroll", revealright);
+
+    window.onload = revealup();
+    window.onload = revealdown();
+    window.onload = revealleft();
+    window.onload = revealright();
+
+  </script>
+</html>
